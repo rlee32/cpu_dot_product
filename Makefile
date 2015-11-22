@@ -15,4 +15,4 @@ psimple: driver.cc parallel_simple.cc
 	$(CC) $(CCFLAGS) -o $@ $^ $(LDFLAGS)
 
 clean: 
-	rm -f *.o *~ simple 
+	rm -f *.o *~ simple psimple
